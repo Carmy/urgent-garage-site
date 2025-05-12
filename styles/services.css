@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+a {
+  color: #002d62;
+  text-decoration: none;
+}
+h1, h2 {
+  color: #002d62;
+}
+ul {
+  padding-left: 1.5rem;
+}
+.top-bar {
+  background: #002d62;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+.hero {
+  background: url('https://urgentgaragedoor.com/wp-content/uploads/2022/01/garage-hero-bg.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 6rem 1rem 4rem;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+.cta {
+  margin-top: 2rem;
+}
+.cta a {
+  background: #002d62;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+  font-weight: bold;
+}
+footer {
+  background: #002d62;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+footer a {
+  color: #ffa500;
+}
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .cta a {
+    display: block;
+    margin: 0.5rem auto;
+  }
+  #menu-toggle {
+    display: block;
+  }
+  #main-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: white;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  #main-nav li {
+    padding: 0.5rem 0;
+  }
+}
