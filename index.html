@@ -6,13 +6,17 @@
   <title>David's Urgent Garage Door | 24/7 Repair Services</title>
   <link rel="stylesheet" href="styles/services.css" />
   <link rel="icon" href="https://urgentgaragedoor.com/wp-content/uploads/2020/11/davidsurgentgaragedoor.png" type="image/png">
+  <style>
+    nav li:hover ul {
+      display: block;
+    }
+  </style>
 </head>
 <body>
   <div class="top-bar">
     Call us 24/7: <a href="tel:+16514172840">(651) 417-2840</a> • <a href="tel:+16124476897">(612) 447-6897</a> • After Hours: <a href="tel:+17632657671">(763) 265-7671</a>
   </div>
 
-  <!-- תפריט עליון -->
   <nav style="background: white; border-bottom: 1px solid #ddd; padding: 0.5rem 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; position: relative;">
     <img src="https://urgentgaragedoor.com/wp-content/uploads/2020/11/davidsurgentgaragedoor.png" alt="David's Garage Door Logo" style="height: 50px;">
     <button id="menu-toggle" style="background:none;border:none;display:none;font-size:2rem;color:#002d62;cursor:pointer;">☰</button>
@@ -37,7 +41,6 @@
     </ul>
   </nav>
 
-  <!-- Hero -->
   <header class="hero">
     <h1>David's Urgent Garage Door</h1>
     <p>Trusted Local Emergency Garage Door Repair in Minnesota</p>
@@ -47,6 +50,28 @@
     </div>
   </header>
 
-  <!-- המשך תוכן: Services, Gallery, Forms, Footer וכו'... -->
+  <main>
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li><a href="emergency-repair-page.html">Emergency Garage Door Repair</a></li>
+        <li><a href="opener-install-repair.html">Garage Door Opener Repair & Install</a></li>
+        <li><a href="gear-sprocket-assembly.html">Gear & Sprocket Assembly</a></li>
+        <li><a href="garage-door-springs.html">Garage Door Spring Repair</a></li>
+        <li><a href="roller-replacement.html">Roller Replacement</a></li>
+        <li><a href="noisy-garage-door-repair.html">Noisy Garage Door Repair</a></li>
+        <li><a href="door-off-track-repair.html">Door Off Track Repair</a></li>
+        <li><a href="garage-door-repair.html">General Garage Door Repair</a></li>
+        <li><a href="new-door-install.html">New Garage Door Installation</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+      const nav = document.getElementById('main-nav');
+      nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+    });
+  </script>
 </body>
 </html>
