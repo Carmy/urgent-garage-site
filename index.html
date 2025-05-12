@@ -2,76 +2,129 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>David's Urgent Garage Door | 24/7 Repair Services</title>
-  <link rel="stylesheet" href="styles/services.css" />
-  <link rel="icon" href="https://urgentgaragedoor.com/wp-content/uploads/2020/11/davidsurgentgaragedoor.png" type="image/png">
-  <style>
-    nav li:hover ul {
-      display: block;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Emergency garage door repair and installation in Minnesota. Fast, reliable service by David's Urgent Garage Door." />
+  <meta name="keywords" content="garage door repair, emergency garage service, opener repair, spring replacement, Minnesota" />
+  <meta name="author" content="David's Urgent Garage Door" />
+  <title>David's Urgent Garage Door</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "David's Urgent Garage Door",
+    "image": "https://carmy.github.io/urgent-garage-site/images/garage-hero.jpg",
+    "telephone": "+19527778866",
+    "email": "urgentgaragedoor@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Minnesota",
+      "addressRegion": "MN",
+      "addressCountry": "US"
+    },
+    "url": "https://carmy.github.io/urgent-garage-site/"
+  }
+  </script>
 </head>
 <body>
-  <div class="top-bar">
-    Call us 24/7: <a href="tel:+16514172840">(651) 417-2840</a> • <a href="tel:+16124476897">(612) 447-6897</a> • After Hours: <a href="tel:+17632657671">(763) 265-7671</a>
-  </div>
+  <a href="tel:19527778866" class="floating-call-btn"><i class="fas fa-phone"></i> Call</a>
 
-  <nav style="background: white; border-bottom: 1px solid #ddd; padding: 0.5rem 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; position: relative;">
-    <img src="https://urgentgaragedoor.com/wp-content/uploads/2020/11/davidsurgentgaragedoor.png" alt="David's Garage Door Logo" style="height: 50px;">
-    <button id="menu-toggle" style="background:none;border:none;display:none;font-size:2rem;color:#002d62;cursor:pointer;">☰</button>
-    <ul id="main-nav" style="list-style: none; margin: 0; padding: 0; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;">
-      <li style="position: relative;">
-        <a href="#services" style="text-decoration: none; color: #002d62; font-weight: bold;">Services ▾</a>
-        <ul style="position: absolute; top: 100%; left: 0; background: white; list-style: none; padding: 0.5rem 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: none; z-index: 1000; min-width: 220px;">
-          <li><a href="emergency-repair-page.html">Emergency Repairs</a></li>
-          <li><a href="opener-install-repair.html">Opener Install & Repair</a></li>
-          <li><a href="gear-sprocket-assembly.html">Gear & Sprocket Assembly</a></li>
-          <li><a href="garage-door-springs.html">Garage Door Springs</a></li>
-          <li><a href="roller-replacement.html">Roller Replacement</a></li>
-          <li><a href="noisy-garage-door-repair.html">Noisy Garage Door Repair</a></li>
-          <li><a href="door-off-track-repair.html">Door Off Track Repair</a></li>
-          <li><a href="garage-door-repair.html">General Door Repair</a></li>
-          <li><a href="new-door-install.html">New Garage Door Install</a></li>
-        </ul>
-      </li>
-      <li><a href="#about" style="text-decoration: none; color: #002d62; font-weight: bold;">About</a></li>
-      <li><a href="#contact" style="text-decoration: none; color: #002d62; font-weight: bold;">Contact</a></li>
-      <li><a href="#testimonials" style="text-decoration: none; color: #002d62; font-weight: bold;">Testimonials</a></li>
-    </ul>
-  </nav>
-
-  <header class="hero">
-    <h1>David's Urgent Garage Door</h1>
-    <p>Trusted Local Emergency Garage Door Repair in Minnesota</p>
-    <div class="cta">
-      <a href="#services">Our Services</a>
-      <a href="https://wa.me/17632657671" style="background:#ffa500;color:#002d62;padding:0.75rem 1.5rem;border-radius:5px;text-decoration:none;font-weight:bold;">Chat on WhatsApp</a>
-    </div>
+  <header class="header">
+    <div class="logo">David's Urgent Garage Door</div>
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li class="dropdown">
+          <a href="#services">Services <i class="fa fa-caret-down"></i></a>
+          <ul class="dropdown-content">
+            <li><a href="#emergency">Emergency Repair</a></li>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#springs">Spring Replacement</a></li>
+            <li><a href="#openers">Openers</a></li>
+            <li><a href="#maintenance">Maintenance</a></li>
+          </ul>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <section id="services">
-      <h2>Our Services</h2>
-      <ul>
-        <li><a href="emergency-repair-page.html">Emergency Garage Door Repair</a></li>
-        <li><a href="opener-install-repair.html">Garage Door Opener Repair & Install</a></li>
-        <li><a href="gear-sprocket-assembly.html">Gear & Sprocket Assembly</a></li>
-        <li><a href="garage-door-springs.html">Garage Door Spring Repair</a></li>
-        <li><a href="roller-replacement.html">Roller Replacement</a></li>
-        <li><a href="noisy-garage-door-repair.html">Noisy Garage Door Repair</a></li>
-        <li><a href="door-off-track-repair.html">Door Off Track Repair</a></li>
-        <li><a href="garage-door-repair.html">General Garage Door Repair</a></li>
-        <li><a href="new-door-install.html">New Garage Door Installation</a></li>
-      </ul>
-    </section>
-  </main>
+  <section id="hero" class="hero">
+    <img src="images/garage-hero.jpg" alt="Garage door repair in action" />
+    <div class="hero-text">
+      <h2>Fast, Reliable Garage Door Repair in Minnesota</h2>
+      <p>Emergency repairs, spring replacement, opener installation and more – when and where you need it most.</p>
+      <a href="https://wa.me/19527778866" class="cta-button">📞 WhatsApp Us Now</a>
+    </div>
+  </section>
 
-  <script>
-    document.getElementById('menu-toggle').addEventListener('click', function () {
-      const nav = document.getElementById('main-nav');
-      nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
-    });
-  </script>
+  <section id="services" class="content">
+    <h2>Our Services</h2>
+    <img src="images/garage-services.jpg" alt="Garage door services montage" />
+    <ul>
+      <li id="emergency"><strong>Emergency Garage Door Repair:</strong> 24/7 service for immediate solutions.</li>
+      <li id="installation"><strong>Garage Door Installation:</strong> Residential and commercial installations.</li>
+      <li id="springs"><strong>Spring Replacement:</strong> Safe and fast replacement of broken springs.</li>
+      <li id="openers"><strong>Opener Repair & Installation:</strong> All major brands supported.</li>
+      <li id="maintenance"><strong>Maintenance & Tune-Ups:</strong> Keep your door running smoothly.</li>
+    </ul>
+    <a href="#contact" class="cta-button">Need help? Contact us now</a>
+  </section>
+
+  <section id="about" class="content">
+    <h2>About Us</h2>
+    <img src="images/about-david.jpg" alt="David at work" />
+    <p>David’s Urgent Garage Door has over a decade of experience serving Minnesota homeowners with honest, affordable, and high-quality garage door repair and installation services. We are certified and trusted in the local community.</p>
+    <img src="images/certifications.jpg" alt="certifications" class="certifications" />
+  </section>
+
+  <section id="testimonials" class="content">
+    <h2>Latest Reviews</h2>
+    <img src="images/happy-customers.jpg" alt="Happy customers" />
+    <blockquote>“David is a lifesaver! He arrived within 30 minutes and got our door working again. Highly recommended!” – Mike S., Eden Prairie</blockquote>
+    <blockquote>“Extremely professional and friendly. They even cleaned up after the job. 5 stars!” – Karen B., Minneapolis</blockquote>
+    <blockquote>“Honest pricing and excellent service. What more can you ask for?” – Jeff T., St. Paul</blockquote>
+    <a href="#contact" class="cta-button">See why customers trust us</a>
+  </section>
+
+  <section id="contact" class="content">
+    <h2>Contact Us</h2>
+    <img src="images/contact.jpg" alt="Call now" />
+    <p><strong>Phone:</strong> <a href="tel:19527778866">(952) 777-8866</a></p>
+    <p><strong>Email:</strong> <a href="mailto:urgentgaragedoor@gmail.com">urgentgaragedoor@gmail.com</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/19527778866">Chat on WhatsApp</a></p>
+    <form action="mailto:urgentgaragedoor@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section id="faq" class="content">
+    <h2>Frequently Asked Questions</h2>
+    <ul>
+      <li><strong>How quickly can you arrive?</strong><br>In most cases, we can be at your location within 1 hour in the Twin Cities metro area.</li>
+      <li><strong>Do you offer weekend and emergency services?</strong><br>Yes, we are available 24/7 including weekends and holidays.</li>
+      <li><strong>Can I schedule an appointment online?</strong><br>Absolutely. You can contact us via WhatsApp, email, or the contact form above.</li>
+    </ul>
+  </section>
+
+  <section id="map" class="content">
+    <h2>Service Area</h2>
+    <iframe src="https://www.google.com/maps/d/embed?mid=1Vx5hg89TxJgOgbSt8-Fk7ZmHRrNfKkM&ehbc=2E312F" width="100%" height="400"></iframe>
+    <p>We proudly serve Minneapolis, Saint Paul, Bloomington, Eden Prairie, and surrounding Minnesota areas.</p>
+  </section>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://www.instagram.com/UrgentGarageDoor" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/19527778866" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="mailto:urgentgaragedoor@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p>&copy; 2025 David's Urgent Garage Door. All rights reserved.</p>
+  </footer>
 </body>
 </html>
